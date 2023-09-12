@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frank-feng-portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+  </head>
+  <body>
+    <!--menu with menu-button to expand the menu-->
+    <header>
+      <nav>
+        <button class="menu-button">
+          <svg
+            class="open-menu"
+            width="100%"
+            height="100%"
+            viewBox="0 0 16 16"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve"
+            xmlns:serif="http://www.serif.com/"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+          >
+            <g transform="matrix(15.6896,0,0,1.01163,-36.8663,-0.143675)">
+              <rect x="2.509" y="11.509" width="0.701" height="0.988" />
+            </g>
+            <g transform="matrix(15.6896,0,0,1.01163,-36.8663,-4.14329)">
+              <rect x="2.509" y="11.509" width="0.701" height="0.988" />
+            </g>
+            <g transform="matrix(15.6896,0,0,1.01163,-36.8663,-8.14268)">
+              <rect x="2.509" y="11.509" width="0.701" height="0.988" />
+            </g>
+            <path
+              d="M2.5,12C2.5,11.726 2.726,11.5 3,11.5L13,11.5C13.274,11.5 13.5,11.726 13.5,12C13.5,12.274 13.274,12.5 13,12.5L3,12.5C2.726,12.5 2.5,12.274 2.5,12ZM2.5,8C2.5,7.726 2.726,7.5 3,7.5L13,7.5C13.274,7.5 13.5,7.726 13.5,8C13.5,8.274 13.274,8.5 13,8.5L3,8.5C2.726,8.5 2.5,8.274 2.5,8ZM2.5,4C2.5,3.726 2.726,3.5 3,3.5L13,3.5C13.274,3.5 13.5,3.726 13.5,4C13.5,4.274 13.274,4.5 13,4.5L3,4.5C2.726,4.5 2.5,4.274 2.5,4Z"
+            />
+          </svg>
+          <svg
+            class="close-menu"
+            xmlns="http://www.w3.org/2000/svg"
+            width="100%"
+            height="100%"
+            fill="currentColor"
+            class="bi bi-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </button>
+        <h1>PORTFOLIO</h1>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <canvas id="canvas"></canvas>
+      <div class="content-container">
+        <div class="card">
+          <img src="img/portfolio.png" alt="portfolio" />
+          <h3>Portfolio Webseite</h3>
+          <p>persönliche Portfolio Webseite um mich zu bewerben</p>
+          <a href="https://github.com/fs-feng/frank-portfolio">Github</a>
+        </div>
+        <div class="card">
+          <img src="img/portfolio.png" alt="portfolio" />
+          <h3>Partikel System</h3>
+          <p>
+            Eigenes Partikel System, welches Canvas und 2d Rendering verwendet
+          </p>
+          <a href="https://github.com/fs-feng/frank-portfolio">Github</a>
+        </div>
+        <div class="card">
+          <img src="img/portfolio.png" alt="portfolio" />
+          <h3>Schach</h3>
+          <p>Schach porgrammiert in Java</p>
+          <a href="https://github.com/fs-feng/frank-portfolio">Github</a>
+        </div>
+        <div class="card">
+          <img src="img/portfolio.png" alt="portfolio" />
+          <h3>Terminal Minesweeper</h3>
+          <p>terminal basiertes Minesweeper spiel, in Java programmiert</p>
+          <a href="https://github.com/fs-feng/frank-portfolio">Github</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>Frank Stieger</h3>
+          <p>2. Lehrjahr</p>
+          <p>Benedict Zürich</p>
+          <!--<p>
+            <a href="github.com"><img src="img/github-icon.png" alt="" /></a>
+            <a href="#"><img src="img/mail-icon.png" alt="" /></a>
+          </p>-->
+        </div>
+        <div class="footer-column">
+          <h3>Kontaktieren Sie mich</h3>
+          <form
+            action="mailto:frank@malien.ch"
+            method="post"
+            enctype="text/plain"
+          >
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="mail">E-Mail:</label><br />
+            <input type="text" id="mail" name="mail" /><br />
+            <label for="message">Nachricht:</label><br />
+            <textarea id="message" name="message"></textarea><br />
+            <input type="submit" value="Senden" />
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!--javascript-->
+    <script src="js/nav.js"></script>
+    <script src="js/canvas.js"></script>
+  </body>
+</html>

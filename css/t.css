@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&family=Red+Hat+Text:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Text", sans-serif;
+
+  overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 6rem;
+  background-color: rgba(61, 68, 131, 0.9);
+  z-index: 1;
+  transition: all 0.4s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav h1 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  align-self: center;
+  font-size: 5em;
+}
+
+nav.show {
+  right: 60vw;
+}
+
+/*  Menu */

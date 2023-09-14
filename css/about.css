@@ -37,15 +37,24 @@
   &.right {
     align-self: flex-end;
     margin: 1em;
-    background-color: rgba(50, 50, 50, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
   }
   &.left {
     align-self: flex-start;
     margin: 1em;
-    background-color: rgba(25, 25, 25, 0.4);
+    background-color: rgba(205, 205, 205, 0.5);
   }
 }
 
 h1 {
   color: #010f55;
+}
+
+.top-div h1 {
+  color: black;
+  font-size: 7rem;
+  line-height: 0.9;
+  position: absolute;
+  top: -0.5em;
+  left: 0;
 }

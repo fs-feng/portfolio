@@ -367,8 +367,19 @@ footer div a {
   grid-row: span 1;
   background-color: #010f55;
 
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.skill-default {
+  display: flex;
+}
+
+.skill-java,
+.skill-html,
+.skill-css,
+.skill-js {
+  display: none;
+  background-color: red;
 }

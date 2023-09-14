@@ -35,13 +35,17 @@
   box-sizing: border-box;
 
   &.right {
-    background-color: red;
     align-self: flex-end;
     margin: 1em;
+    background-color: rgba(50, 50, 50, 0.4);
   }
   &.left {
-    background-color: blue;
     align-self: flex-start;
     margin: 1em;
+    background-color: rgba(25, 25, 25, 0.4);
   }
+}
+
+h1 {
+  color: #010f55;
 }

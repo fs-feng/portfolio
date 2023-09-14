@@ -111,37 +111,40 @@
       </div>
 
       <div class="main-content">
+        <div class="title-div">
+          <h1>Diese Seite</h1>
+        </div>
         <div class="grid">
-          <div class="grid-item medium title">
-            <h1>Über Mich</h1>
+          <div class="grid-item medium">
+            <p>
+              Ich besuche die Benedict und lerne Applikationsentwickler EFZ.
+            </p>
           </div>
           <div class="grid-item square image image-me"></div>
           <div class="grid-item medium-square">
             <p>
-              Als zukünftiger Applikationsentwickler an der Benedict Schule,
-              präsentiere ich stolz mein Portfolio. Ich habe dieses Portfolio in
-              meiner Freizeit programmiert.
+              Diese Webseite wurde mit Vanilla HTML, CSS und Javascript
+              programmiert.
             </p>
           </div>
           <a
             target="_blank"
             href="https://github.com/fs-feng?tab=repositories"
-            class="grid-item small link link-github"
-          ></a>
-          <a
-            href="mailto:frank@malien.ch"
-            class="grid-item small link link-mail"
-          ></a>
+            class="grid-item small link"
+          >
+            <img class="link-image" src="/img/github.png" alt="" />
+          </a>
+          <a href="mailto:frank@malien.ch" class="grid-item small link">
+            <img class="link-image" src="/img/mail.png" alt="" />
+          </a>
 
           <div class="grid-item square image image-minesweeper"></div>
           <div class="grid-item medium-square">
             <p>
-              Diese Webseite wurde nur mit Vanilla HTML, CSS und Javascript
-              programmiert.
-            </p>
-            <p>
-              Ich programmiere gerne an kleinen Projekten. Haupstächlich in
-              Java, HTML, CSS und Javascript
+              Dieses Portfolio wird auf meinem Synology NAS gehostet. Die DynDNS
+              wird von Synology bereitgestellt und das SSL Zertifikat von Let's
+              Encrypt. Mit einer apache config Datei wird der Port 80 auf 443
+              weitergeleitet.
             </p>
           </div>
           <a href="projects.html" class="grid-item medium link"
@@ -151,11 +154,39 @@
             ><h1>Über mich</h1></a
           >
         </div>
+        <div class="title-div">
+          <h1>Meine Skills</h1>
+        </div>
+        <div class="grid-skills">
+          <div class="skill-icon">
+            <img src="/img/java.png" alt="My Icon" />
+          </div>
+          <div class="skill-icon">
+            <img src="/img/html.png" alt="My Icon" />
+          </div>
+          <div class="skill-icon">
+            <img src="/img/js.png" alt="My Icon" />
+          </div>
+          <div class="skill-icon">
+            <img src="/img/css.webp" alt="My Icon" />
+          </div>
+          <div class="skill-text">
+            <h1>Test</h1>
+            <p>kdsjlfjaosfjlsa</p>
+          </div>
+        </div>
       </div>
-      <div class="t"></div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div>
+        <p>© 2023 Frank Feng Stieger</p>
+      </div>
+      <div>
+        <a href="mailto:frank@malien.ch">Kontakt</a>
+        <a href="https://github.com/fs-feng?tab=repositories">github</a>
+      </div>
+    </footer>
 
     <script src="js/nav.js"></script>
     <script src="js/canvas.js"></script>
